@@ -1,0 +1,100 @@
+
+html {
+    height: 100%
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.navbar-brand {
+   background-color: black  ;
+   height: 12vh;
+
+}
+
+.navbar{
+    margin-top: -1%;
+    width: 100%;
+}
+
+.navbar-brand .nav-img {
+    float: left;
+}
+
+.navbar-brand .navbar-items .navbar-item {
+    display: inline-block;
+    float: right;
+    margin: 0px 10px;
+    margin-top: 20px;
+}
+
+.navbar-brand .navbar-items{
+    margin-left: -20px !important;
+}
+
+.navbar-brand .navbar-items .navbar-item a {
+    color:white;
+    text-decoration: none;
+    list-style-type: none;
+    text-transform: uppercase;
+    font-family: Courier, monospace;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
+    margin-right: 40px;
+}
+
+.banner {
+    background-image: url('../images/banner.jpg');
+    width: 100%;
+    height: 92vh;
+    background-position : right ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-origin: content-box;
+    margin-top: -0.5%;
+    overflow:hidden;
+
+}
+
+
+.banner .text {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+.banner .text h1 {
+    font-size: 80px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.banner .text .description p {
+    width: 30%;
+    font-size: 14px;
+}
+
+
+@media (min-width:0px) and (max-width:900px) {
+
+    .banner .text {
+        position: absolute;
+        margin-top: 40px;
+        margin-left: 60px;
+    }
+    .banner .text h1 {
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    
+    .banner .text .description p {
+        width: 30%;
+        font-size: 14px;
+    }
+    
+
+}
